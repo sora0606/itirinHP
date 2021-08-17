@@ -1,0 +1,99 @@
+.seats{
+    position: relative;
+    top: 10vh;
+}
+
+.seat-content{
+    width: 100%;
+}
+
+.seat-content .seat-img-header{
+    position: relative;
+    width: 90%;
+    height: 500px;
+    margin-left:auto;
+    overflow: hidden;
+}
+
+.seat-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.seat-img-1{
+    background-image: url('../img/seat-1.png');
+}
+
+.seat-img-2{
+    background-image: url('../img/seat-2.png');
+}
+
+.seat-img-3{
+    background-image: url('../img/seat-3.png');
+}
+
+.seat-img-4{
+    height: 150vh;
+    background-image: url('../img/seat-4.png');
+}
+
+.seat-img-5{
+    height: 150vh;
+    background-image: url('../img/seat-5.png');
+}
+
+.seat-content .seat-img-header .seat-title{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    font-weight: inherit;
+    writing-mode: vertical-rl;
+    color: #fff;
+    height: fit-content;
+}
+
+.seat-text-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 85%;
+    margin-left: auto;
+}
+
+.sub-title{
+    font-size: 3rem;
+}
+
+.explanation{
+    text-align: left;
+    font-weight: inherit;
+    margin-right: 100px;
+}
+
+.seat-text{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.seat-4 .sub-title:last-child{
+    position: relative;
+    left: 88px;
+}
+
+.seat-note{
+    font-size: 2rem;
+}
+
+.note:nth-of-type(n+2){
+    position: relative;
+    left: 20px;
+}
+
+.footer{
+    top: 0!important;
+    margin-top: 120vh;
+}

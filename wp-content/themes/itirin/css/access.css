@@ -1,0 +1,56 @@
+iframe{
+    display: block;
+}
+
+.text{
+    position: absolute;
+    bottom: -20%;
+    right: 0%;
+    margin-left: auto;
+    background: rgba(0, 0, 0, 0.500);
+    color: #fff;
+    text-align: left;
+    padding: 30px;
+}
+
+.location-text dl{
+    display: flex;
+    align-items: baseline;
+    line-height: 2;
+}
+
+.location-text dt{
+    width: 180px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.location-text dd{
+    font-size: 1.5rem;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.location-text a{
+    color: #fff;
+}
+
+.location-title{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.link-btn{
+    margin-top: 20px;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.link-btn a:nth-of-type(n+2){
+    margin-left: 10px;
+}
+
+.footer{
+    top: 0!important;
+    margin-top: 150vh;
+}
